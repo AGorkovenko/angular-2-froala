@@ -24,6 +24,7 @@
     "core-js": "^2.5.4",
     "ngx-toastr": "^9.1.2",
     "rxjs": "6.0.0",
+    "sass-autoprefixer": "^1.0.1",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

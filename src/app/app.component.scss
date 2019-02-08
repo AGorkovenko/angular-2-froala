@@ -1,0 +1,34 @@
+// mixin for autoprefix css
+@import "~node_modules/sass-autoprefixer/scss/prefixes";
+
+:host {
+	width: 100%;
+}
+
+.page {
+	@include vp-display(flex);
+	@include vp-justify-content(center);
+	@include vp-align-items(center);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	.page__inner {
+		width: 100%;
+		
+		@media (min-width: 640px) {
+			width: 80%;
+		}
+		
+		@media (min-width: 1000px) {
+			width: 50%;
+		}
+	}
+}
+
+.editor {
+	width: 100%;
+	height: 100%;
+}
