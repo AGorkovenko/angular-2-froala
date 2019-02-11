@@ -2,14 +2,14 @@
 ## What I developed?
 Own module (afe-editor) with editor (Froala) included and visual notification (Toastr) for error
 ## How to use
-```angular2
+```typescript
 import {BrowserModule} from "@angular/platform-browser";
 import {NgModule} from "@angular/core";
 import {CommonModule} from "@angular/common";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {AppComponent} from "./app.component";
 
-// Imported in your module
+// Import to your module
 import {AfeEditorModule} from "./afe-editor/afe-editor.module";
 
 @NgModule({
