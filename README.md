@@ -1,4 +1,4 @@
-# Afe - Angular (current v.6) Froala Editor
+# Afe - Angular (current v.6.1.0) Froala Editor
 ### What I developed?
 Own module (afe-editor) with editor (Froala) included and visual notification (Toastr) for error
 ### How to use
@@ -11,6 +11,9 @@ Download from gihub
 and put in your project (exp. in folder `./app` )
 
 **Step 2**
+
+Import module
+
 ```typescript
 import {BrowserModule} from "@angular/platform-browser";
 import {NgModule} from "@angular/core";
@@ -18,7 +21,7 @@ import {CommonModule} from "@angular/common";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {AppComponent} from "./app.component";
 
-// Import to your module
+// Import to your main or other module
 import {AfeEditorModule} from "./afe-editor/afe-editor.module";
 
 @NgModule({
@@ -49,7 +52,6 @@ Set some options in file `/afe-editor/afe-editor-options-init.ts`
 ...
 
 AFE_EDITOR_OPTIONS = {
-	
 	...
 		
 	// Example: custom toolbar
@@ -68,10 +70,23 @@ AFE_EDITOR_OPTIONS = {
 		"insertLink",
 		"insertImage"
 	],
-	
+	imageUploadURL: this.editorService.UPLOAD_IMAGE_API,
 	...
-	
 }
+
+...
+```
+
+**Step 4**
+
+Customize some variables and method in service `/afe-editor/afe-editor.service.ts`
+
+```typescript
+...
+
+// URL of api end-point for uploading image
+
+UPLOAD_IMAGE_API: string = environment.serverAddress + "/image";
 
 ...
 ```
