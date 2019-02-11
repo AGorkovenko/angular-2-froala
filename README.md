@@ -92,3 +92,29 @@ UPLOAD_IMAGE_API: string = environment.serverAddress + "/image";
 
 ...
 ```
+
+**Step 5**
+
+Use in component
+
+HTML template
+```angular2html
+<afe-editor formControlName="editorField"></afe-editor>
+```
+
+Angular component
+```typescript
+export class AppComponent implements OnInit {
+	
+	testForm: FormGroup;
+	
+	constructor(private fb: FormBuilder) {
+	}
+	
+	ngOnInit(): void {
+		this.testForm = this.fb.group({
+			editorField: new FormControl("", Validators.required)
+		});
+	}
+}
+```
