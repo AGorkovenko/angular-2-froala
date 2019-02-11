@@ -18,7 +18,7 @@ import {AfeEditorOptionsInit} from "./afe-editor-options-init";
 export class AfeEditorComponent implements ControlValueAccessor {
 	
 	model: any;
-	config = this.initEditorOptions.GA_EDITOR_OPTIONS;
+	config = this.initEditorOptions.AFE_EDITOR_OPTIONS;
 	
 	constructor(private initEditorOptions: AfeEditorOptionsInit) {
 	}

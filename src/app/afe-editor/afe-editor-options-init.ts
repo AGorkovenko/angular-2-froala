@@ -7,7 +7,7 @@ export class AfeEditorOptionsInit {
 	constructor(private editorService: AfeEditorService) {
 	}
 	
-	GA_EDITOR_OPTIONS = {
+	AFE_EDITOR_OPTIONS = {
 		requestHeaders: this.editorService.requestHeaders(),
 		
 		codeViewKeepActiveButtons: [
