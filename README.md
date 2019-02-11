@@ -12,6 +12,14 @@ Download from gihub
 
 and put in your project (exp. in folder `./app` )
 
+install editor
+
+`npm install froala-editor`
+
+install notification lib
+
+`npm install --save toastr`
+
 **Step 2**
 
 Import module
@@ -118,3 +126,32 @@ export class AppComponent implements OnInit {
 	}
 }
 ```
+
+**Step 6**
+
+Add all style and scripts to your `angular.json`
+```json
+"styles": [
+	...
+	"node_modules/ngx-toastr/toastr.css",
+	"node_modules/froala-editor/css/froala_editor.pkgd.min.css",
+	"node_modules/froala-editor/css/froala_style.min.css",
+	"node_modules/froala-editor/css/themes/dark.min.css",
+	"node_modules/froala-editor/css/themes/gray.min.css",
+	"node_modules/froala-editor/css/themes/red.min.css",
+	"node_modules/froala-editor/css/themes/royal.min.css",
+	"node_modules/font-awesome/css/font-awesome.min.css",
+	...
+],
+"scripts": [
+	...
+	"node_modules/jquery/dist/jquery.min.js",
+	"node_modules/froala-editor/js/froala_editor.pkgd.min.js",
+	...
+]
+```
+
+Using source for this module:
+
+- [Froala Editor](https://www.froala.com)
+- [Toastr](https://codeseven.github.io/toastr/)
