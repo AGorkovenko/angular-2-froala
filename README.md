@@ -156,5 +156,5 @@ Add all style and scripts to your `angular.json`
 
 Using source for this module:
 
-- [Froala Editor](https://www.froala.com)
+- [Froala Editor](https://www.froala.com) (sorry but free only for localhost, other it's from [$144 per year](https://www.froala.com/wysiwyg-editor/pricing))
 - [Toastr](https://codeseven.github.io/toastr/)
