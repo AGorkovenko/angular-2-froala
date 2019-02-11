@@ -130,7 +130,7 @@ export class AppComponent implements OnInit {
 **Step 6**
 
 Add all style and scripts to your `angular.json`
-```json
+```
 "styles": [
 	...
 	"node_modules/ngx-toastr/toastr.css",
