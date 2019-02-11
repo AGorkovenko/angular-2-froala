@@ -66,7 +66,7 @@ AFE_EDITOR_OPTIONS = {
 	...
 		
 	// Example: custom toolbar
-	// more you can find hear
+	// more you can find here
 	// https://www.froala.com/wysiwyg-editor/docs/options
 	
 	toolbarButtons: [
