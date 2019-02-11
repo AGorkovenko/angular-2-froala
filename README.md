@@ -4,8 +4,6 @@
 Own module (afe-editor) with editor (Froala Editor) included and visual notification (Toastr) for error.
 
 This module is the HTML editor for Angular 6 makes it easy to use and allows you to make preliminary settings that will be common to all the modules and components in which you will use Froala Editor.
-
-![Screenshot editor](/src/assets/images/screenshot.png)
 ### How to use
 **Step 1**
 
@@ -153,6 +151,8 @@ Add all style and scripts to your `angular.json`
 	...
 ]
 ```
+
+![Screenshot editor](/src/assets/images/screenshot.png)
 
 Using source for this module:
 
