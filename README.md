@@ -102,7 +102,7 @@ HTML template
 <afe-editor formControlName="editorField"></afe-editor>
 ```
 
-Angular component
+Angular 6 component
 ```typescript
 export class AppComponent implements OnInit {
 	
