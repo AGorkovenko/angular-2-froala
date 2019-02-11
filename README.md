@@ -1,5 +1,5 @@
 # Afe - Angular (current v.6.1.0) Froala Editor
-![Affe](/src/assets/images/affe.png | width=100)
+![Affe](/src/assets/images/affe.png)
 ### What I developed?
 Own module (afe-editor) with editor (Froala Editor) included and visual notification (Toastr) for error.
 
