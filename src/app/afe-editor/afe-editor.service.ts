@@ -13,6 +13,7 @@ export class AfeEditorService {
 	@Inject(PLATFORM_ID) private platformId: Object) {
 	}
 	
+	// Example method: add Auth cookie to header for each request (image or file upload, etc.) from Editor
 	public requestHeaders() {
 		const tokenJson = JSON.parse(localStorage.getItem(environment.authCookie));
 		if (tokenJson && tokenJson.token) {
@@ -39,6 +40,6 @@ export class AfeEditorService {
 	}
 	
 	public get_current_address() {
-		return "https://api.yourticket.com.ua"
+		return "https://some_server_url.com"
 	}
 }
