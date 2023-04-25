@@ -20,7 +20,7 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
-    "angular-froala-wysiwyg": "^2.9.2",
+    "angular-froala-wysiwyg": "^4.0.18",
     "core-js": "^2.5.4",
     "ngx-toastr": "^9.1.2",
     "rxjs": "6.0.0",
